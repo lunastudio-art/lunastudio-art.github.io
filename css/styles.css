@@ -1,0 +1,84 @@
+h1 {
+  text-align: center;
+  font: size 300%;
+  font-family: "Roboto", sans-serif;
+  background-color: grey;
+  border-radius: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: white;
+}
+body {
+  background-image: url(eco.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: black;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding-right: 100px;
+  padding-left: 100px;
+  font-size: 200%;
+  color: white;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  font-size: 10px;
+  color: white;
+}
+.navbar button {
+  background-color: lightgray;
+  border: 1px blueviolet;
+  color: black;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left;
+}
+
+.navbar button:not(:last-child) {
+  border-right: none;
+}
+
+.navbar:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.navbar button:hover {
+  background-color: blue;
+  color: white;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.teachableMachineStart {
+  background-color: lightgray;
+  border: 0px black;
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+}
+.teachableMachineStart button:hover {
+  background-color: lightgreen;
+}
+
+.webcam-container {
+  text-align: center;
+}
+
+.border {
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: rgb(198, 255, 175, 0.5);
+  border-radius: 8px;
+}
